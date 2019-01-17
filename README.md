@@ -22,3 +22,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Setup Steps
+
+Follow these steps first: https://docs.docker.com/compose/rails/
+
+docker login
+docker tag rails-demo fadieliya/rails-demo
+docker push fadieliya/rails-demo
